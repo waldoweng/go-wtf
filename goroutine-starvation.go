@@ -19,7 +19,7 @@ func main() {
 	var locked int32
 
 	go func() {
-		// use CompareAndSwapInt32 to aquire a lock
+		// use CompareAndSwapInt32 to acquire a lock
 		atomic.CompareAndSwapInt32(&locked, 0, 1)
 		defer func() {
 			// release lock
@@ -50,7 +50,7 @@ func main() {
 			//time.Sleep(time.Millisecond * 10)
 		}
 
-		// finaly get the lock.
+		// finally get the lock.
 		// unfortunately we'll never get here.
 		log.Println("swaped done")
 		wg.Done()
