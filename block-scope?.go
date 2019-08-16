@@ -9,7 +9,7 @@ func main() {
 	{
 		// in fact if you declare a variable inside the nest scope
 		// and use it outside the scope, you get a compile-time error.
-		var i int
+		// var i int
 		log.Println("enter nested scope?")
 
 		// but `defer` seems not bind to this nested-scope.
