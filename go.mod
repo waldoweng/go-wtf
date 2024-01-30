@@ -1,8 +1,11 @@
 module github.com/waldoweng/go-wtf
 
-go 1.17
+go 1.19
 
-require github.com/form3tech-oss/f1/v2 v2.0.16
+require (
+	github.com/form3tech-oss/f1/v2 v2.0.16
+	golang.org/x/sys v0.16.0
+)
 
 require (
 	github.com/aholic/ggtimer v0.0.0-20150905131044-5d7b30837a52 // indirect
@@ -38,7 +41,6 @@ require (
 	go.uber.org/goleak v1.2.0 // indirect
 	golang.org/x/image v0.0.0-20210220032944-ac19c3e999fb // indirect
 	golang.org/x/lint v0.0.0-20210508222113-6edffad5e616 // indirect
-	golang.org/x/sys v0.0.0-20220715151400-c0bba94af5f8 // indirect
 	golang.org/x/tools v0.1.8 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
 	gopkg.in/workanator/go-ataman.v1 v1.0.0-20201223053604-e3b73d2e8108 // indirect
