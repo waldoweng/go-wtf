@@ -1,6 +1,6 @@
 module github.com/waldoweng/go-wtf
 
-go 1.19
+go 1.22
 
 require (
 	github.com/form3tech-oss/f1/v2 v2.0.16
