@@ -39,7 +39,7 @@ require (
 	github.com/wcharczuk/go-chart v2.0.2-0.20191206192251-962b9abdec2b+incompatible // indirect
 	github.com/workanator/go-ataman v0.0.0-20201223053433-503c6ff9de7d // indirect
 	go.uber.org/goleak v1.2.0 // indirect
-	golang.org/x/image v0.0.0-20210220032944-ac19c3e999fb // indirect
+	golang.org/x/image v0.18.0 // indirect
 	golang.org/x/lint v0.0.0-20210508222113-6edffad5e616 // indirect
 	golang.org/x/tools v0.1.8 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect

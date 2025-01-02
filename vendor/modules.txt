@@ -125,8 +125,8 @@ github.com/workanator/go-ataman
 ## explicit; go 1.18
 go.uber.org/goleak
 go.uber.org/goleak/internal/stack
-# golang.org/x/image v0.0.0-20210220032944-ac19c3e999fb
-## explicit; go 1.12
+# golang.org/x/image v0.18.0
+## explicit; go 1.18
 golang.org/x/image/draw
 golang.org/x/image/font
 golang.org/x/image/math/f64
